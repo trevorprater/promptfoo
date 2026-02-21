@@ -6,31 +6,29 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ## [0.120.26](https://github.com/promptfoo/promptfoo/compare/0.120.25...0.120.26) (2026-02-21)
 
-
 ### Features
 
-* Add financial:sox-compliance plugin ([#7780](https://github.com/promptfoo/promptfoo/issues/7780)) ([b7cfc8e](https://github.com/promptfoo/promptfoo/commit/b7cfc8e47c5594a498c8a472460896424e5ada52))
-* **providers:** add Gemini 3.1 Pro support ([#7779](https://github.com/promptfoo/promptfoo/issues/7779)) ([e41c203](https://github.com/promptfoo/promptfoo/commit/e41c203bb53ac0e9dc02b1bcd9682c3044b87c57))
-* **redteam:** improve eval header, print styles, and report navigation ([#7613](https://github.com/promptfoo/promptfoo/issues/7613)) ([3beaca4](https://github.com/promptfoo/promptfoo/commit/3beaca4c4248df31f6f6f15c4a869d08a23533e1))
-* **report:** add toggle for untested framework plugins ([#7770](https://github.com/promptfoo/promptfoo/issues/7770)) ([63d803c](https://github.com/promptfoo/promptfoo/commit/63d803c503be0ce842bc838dac901dd8db6c6823))
-* **server:** add Zod validation schemas for config routes ([#7794](https://github.com/promptfoo/promptfoo/issues/7794)) ([c2847ff](https://github.com/promptfoo/promptfoo/commit/c2847ff735aa63c2c51db704c6d2d40475e9f4ca))
-* **server:** add Zod validation schemas for eval routes ([#7360](https://github.com/promptfoo/promptfoo/issues/7360)) ([9d7dcb1](https://github.com/promptfoo/promptfoo/commit/9d7dcb1042a1f184f95814d3e10d5cca434dc4bd))
-
+- Add financial:sox-compliance plugin ([#7780](https://github.com/promptfoo/promptfoo/issues/7780)) ([b7cfc8e](https://github.com/promptfoo/promptfoo/commit/b7cfc8e47c5594a498c8a472460896424e5ada52))
+- **providers:** add Gemini 3.1 Pro support ([#7779](https://github.com/promptfoo/promptfoo/issues/7779)) ([e41c203](https://github.com/promptfoo/promptfoo/commit/e41c203bb53ac0e9dc02b1bcd9682c3044b87c57))
+- **redteam:** improve eval header, print styles, and report navigation ([#7613](https://github.com/promptfoo/promptfoo/issues/7613)) ([3beaca4](https://github.com/promptfoo/promptfoo/commit/3beaca4c4248df31f6f6f15c4a869d08a23533e1))
+- **report:** add toggle for untested framework plugins ([#7770](https://github.com/promptfoo/promptfoo/issues/7770)) ([63d803c](https://github.com/promptfoo/promptfoo/commit/63d803c503be0ce842bc838dac901dd8db6c6823))
+- **server:** add Zod validation schemas for config routes ([#7794](https://github.com/promptfoo/promptfoo/issues/7794)) ([c2847ff](https://github.com/promptfoo/promptfoo/commit/c2847ff735aa63c2c51db704c6d2d40475e9f4ca))
+- **server:** add Zod validation schemas for eval routes ([#7360](https://github.com/promptfoo/promptfoo/issues/7360)) ([9d7dcb1](https://github.com/promptfoo/promptfoo/commit/9d7dcb1042a1f184f95814d3e10d5cca434dc4bd))
 
 ### Bug Fixes
 
-* **app:** remove global border-color ([#7784](https://github.com/promptfoo/promptfoo/issues/7784)) ([6540828](https://github.com/promptfoo/promptfoo/commit/6540828cb82ebb6fc419a3154eb8b2d199cc4ae5))
-* **deps:** update [@inquirer](https://github.com/inquirer) packages ([#7777](https://github.com/promptfoo/promptfoo/issues/7777)) ([385f899](https://github.com/promptfoo/promptfoo/commit/385f899e5d29c92df2aeae0d1f456b46ae020812))
-* **deps:** update dependency @openai/agents to ^0.4.10 ([#7768](https://github.com/promptfoo/promptfoo/issues/7768)) ([9fe7b4c](https://github.com/promptfoo/promptfoo/commit/9fe7b4c07f25572645ea8bb4c435a716cb07c4ce))
-* **deps:** update dependency @openai/agents to ^0.4.9 ([#7763](https://github.com/promptfoo/promptfoo/issues/7763)) ([52dd162](https://github.com/promptfoo/promptfoo/commit/52dd16217734bd01f1b4b9a4f900023aadd473b6))
-* **deps:** update dependency ajv to ^8.18.0 ([#7773](https://github.com/promptfoo/promptfoo/issues/7773)) ([7e5cac8](https://github.com/promptfoo/promptfoo/commit/7e5cac83d1d732149de8afc77d8e67363c66b22a))
-* **deps:** update dependency fast-xml-parser to ^5.3.6 ([#7769](https://github.com/promptfoo/promptfoo/issues/7769)) ([559d477](https://github.com/promptfoo/promptfoo/commit/559d4779197ba923b8a656d9e9d5b1f89e13a143))
-* **deps:** update dependency openai to ^6.22.0 ([#7766](https://github.com/promptfoo/promptfoo/issues/7766)) ([4e6d010](https://github.com/promptfoo/promptfoo/commit/4e6d0109db5d909cf3315cbae592c3073ae21857))
-* **deps:** update dependency simple-git to ^3.31.1 ([#7772](https://github.com/promptfoo/promptfoo/issues/7772)) ([40e7dbc](https://github.com/promptfoo/promptfoo/commit/40e7dbc3d03d1c5e6be759123796cb471dc6353f))
-* **deps:** update dependency swiper to ^12.1.1 ([#7767](https://github.com/promptfoo/promptfoo/issues/7767)) ([225eaa0](https://github.com/promptfoo/promptfoo/commit/225eaa0d9f352ef13c11c469279ec90c3f89514f))
-* **eval:** harden eval resume with serial loop abort and duplicate index detection ([#7606](https://github.com/promptfoo/promptfoo/issues/7606)) ([db05c6a](https://github.com/promptfoo/promptfoo/commit/db05c6a25c6f33ee79c557baac888aabe0feb652))
-* Preserve delimiting colons in Ruby-namespaced method names in `file://` references ([#7791](https://github.com/promptfoo/promptfoo/issues/7791)) ([1e97f3b](https://github.com/promptfoo/promptfoo/commit/1e97f3be0beec08478fc0764c8584f823bc9bb75))
-* **webui:** render inline base64 images from markdown syntax ([#7678](https://github.com/promptfoo/promptfoo/issues/7678)) ([bab239f](https://github.com/promptfoo/promptfoo/commit/bab239f78e61600b71c89617fd365846c5938302))
+- **app:** remove global border-color ([#7784](https://github.com/promptfoo/promptfoo/issues/7784)) ([6540828](https://github.com/promptfoo/promptfoo/commit/6540828cb82ebb6fc419a3154eb8b2d199cc4ae5))
+- **deps:** update [@inquirer](https://github.com/inquirer) packages ([#7777](https://github.com/promptfoo/promptfoo/issues/7777)) ([385f899](https://github.com/promptfoo/promptfoo/commit/385f899e5d29c92df2aeae0d1f456b46ae020812))
+- **deps:** update dependency @openai/agents to ^0.4.10 ([#7768](https://github.com/promptfoo/promptfoo/issues/7768)) ([9fe7b4c](https://github.com/promptfoo/promptfoo/commit/9fe7b4c07f25572645ea8bb4c435a716cb07c4ce))
+- **deps:** update dependency @openai/agents to ^0.4.9 ([#7763](https://github.com/promptfoo/promptfoo/issues/7763)) ([52dd162](https://github.com/promptfoo/promptfoo/commit/52dd16217734bd01f1b4b9a4f900023aadd473b6))
+- **deps:** update dependency ajv to ^8.18.0 ([#7773](https://github.com/promptfoo/promptfoo/issues/7773)) ([7e5cac8](https://github.com/promptfoo/promptfoo/commit/7e5cac83d1d732149de8afc77d8e67363c66b22a))
+- **deps:** update dependency fast-xml-parser to ^5.3.6 ([#7769](https://github.com/promptfoo/promptfoo/issues/7769)) ([559d477](https://github.com/promptfoo/promptfoo/commit/559d4779197ba923b8a656d9e9d5b1f89e13a143))
+- **deps:** update dependency openai to ^6.22.0 ([#7766](https://github.com/promptfoo/promptfoo/issues/7766)) ([4e6d010](https://github.com/promptfoo/promptfoo/commit/4e6d0109db5d909cf3315cbae592c3073ae21857))
+- **deps:** update dependency simple-git to ^3.31.1 ([#7772](https://github.com/promptfoo/promptfoo/issues/7772)) ([40e7dbc](https://github.com/promptfoo/promptfoo/commit/40e7dbc3d03d1c5e6be759123796cb471dc6353f))
+- **deps:** update dependency swiper to ^12.1.1 ([#7767](https://github.com/promptfoo/promptfoo/issues/7767)) ([225eaa0](https://github.com/promptfoo/promptfoo/commit/225eaa0d9f352ef13c11c469279ec90c3f89514f))
+- **eval:** harden eval resume with serial loop abort and duplicate index detection ([#7606](https://github.com/promptfoo/promptfoo/issues/7606)) ([db05c6a](https://github.com/promptfoo/promptfoo/commit/db05c6a25c6f33ee79c557baac888aabe0feb652))
+- Preserve delimiting colons in Ruby-namespaced method names in `file://` references ([#7791](https://github.com/promptfoo/promptfoo/issues/7791)) ([1e97f3b](https://github.com/promptfoo/promptfoo/commit/1e97f3be0beec08478fc0764c8584f823bc9bb75))
+- **webui:** render inline base64 images from markdown syntax ([#7678](https://github.com/promptfoo/promptfoo/issues/7678)) ([bab239f](https://github.com/promptfoo/promptfoo/commit/bab239f78e61600b71c89617fd365846c5938302))
 
 ## [0.120.25](https://github.com/promptfoo/promptfoo/compare/0.120.24...0.120.25) (2026-02-18)
 
